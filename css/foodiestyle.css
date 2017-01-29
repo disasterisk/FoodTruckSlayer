@@ -1,0 +1,157 @@
+* {
+    padding, margin:0;
+}
+#wrapper {
+    margin: 20px auto;
+    background-color:white; 
+    width: 80%;
+   
+  
+}
+
+body {
+   background-image: url("../images/SeattleI5Skyline.jpg");
+    background-position: center;
+    background-size: cover;
+    opacity: .9;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+   
+}
+header {
+    
+}
+
+header h1{
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    font-size:460%;
+}
+
+main {
+    width: 62%;
+    
+    float: left;
+    margin:0 0 .5% .5%;
+    
+    background-color: grey;    
+}
+
+main h1 {
+    text-align: center;
+}
+
+main form {
+    float: left;
+      
+    
+}
+
+main li {
+ 
+    list-style: none;
+    
+    
+}
+
+main ul {
+    float: right;
+    clear: right;
+}
+
+
+main img {
+width: 30%;
+    float: left;
+    margin: 1%;
+    opacity: 1.0;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+
+main img:hover {
+    opacity: .5;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+/* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {opacity: 0;} 
+    to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity:1 ;}
+}
+
+/****
+main p {
+    
+    float: right;
+}
+****/
+
+main #form{
+    
+ 
+}
+aside{
+    width: 36%; 
+    height: 400px;
+    margin: 0 .8% 1% .5%;    
+    float:right;
+    background-color: lightgray;   
+}
+
+aside #form, h2 {
+    margin-left: 4%;
+}
+
+footer{
+    clear: both;
+}
